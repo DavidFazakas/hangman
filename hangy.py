@@ -127,7 +127,7 @@ def incorrect_guess(letter, word, attempt):
 
 
 def winning_function(word, word2):
-    if ''.join(word2) == word:
+    if ''.join(word2) == ''.join(word):
         print("You have won the game!")
         return True
 
